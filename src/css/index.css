@@ -1,0 +1,36 @@
+@import "base.css";
+@import "form.css";
+@import "section.css";
+
+@media  (max-width: 530px) {
+  section {
+    padding: 0 10% 25px;
+  }
+  
+  section div{
+    font-size: 16px;
+  }
+  
+  #city-name h2{
+    font-size: 24px;
+  }
+  
+  #city-name h3{
+    font-size: 16px;
+  }
+  
+  #temp {
+    font-size: 48px;
+  }
+  
+  #temp sup {
+    font-size: 16px;
+    padding-top: 4px;
+  }
+  
+  #weather-condition img {
+    margin-left: 10px;
+    max-width: 55px;
+    max-height: 30px ;
+  }
+}

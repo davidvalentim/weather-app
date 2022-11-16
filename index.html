@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Um aplicativo meteorológico para obter a temperatura e as condições climáticas de uma determinada cidade usando `accuweather`. Uma API meteorológica gratuita.">
+    <meta name="author" content="David Valentim">
+    <meta name="keywords" content="Weather">
+
+    <link rel="icon" type="image/svg+xml" href="/public/2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Weather App</h1>
+      </header>
+      <main>
+        <form id="search-city">
+          <input type="text" id="location" placeholder="Digite o nome da cidade">
+        </form>
+        <section>
+          <div id="city-name"></div>
+          <div id="temp"></div>
+          <div id="weather-condition"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

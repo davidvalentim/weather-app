@@ -1,0 +1,43 @@
+section {
+  padding: 0 10% 25px;
+}
+
+section div{
+  text-align: left;
+  font-size: 24px;
+  display: flex;
+  padding: 5px;
+}
+
+#city-name {
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#city-name h2{
+  font-size: 32px;
+}
+
+#city-name h3{
+  font-size: 24px;
+}
+
+#temp {
+  font-size: 60px;
+}
+
+#temp sup {
+  font-size: 24px;
+  padding-top: 6px;
+}
+
+#weather-condition {
+  align-items: center;
+  margin-top: -15px;
+}
+
+#weather-condition img {
+  margin-left: 10px;
+  max-width: 70px;
+  max-height: 45px ;
+}

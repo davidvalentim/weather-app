@@ -1,0 +1,20 @@
+#search-city input{
+  width: 80%;
+  height: 47px;
+  background: linear-gradient(269.42deg, #f2fbffd0 -1.71%, rgba(242, 251, 255, 0.3) 100%);
+  opacity: 0.5;
+  border-radius: 24px;
+  border: none;
+  margin: 40px auto 0;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  color: #f2fbff;
+  background-image: url(../../public/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 5px;
+}
