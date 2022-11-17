@@ -12,7 +12,7 @@ document.querySelector('#search-city').addEventListener('submit', (event) => {
 })
 
 function getCity (city) {
-  axios.get(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${key}&q=${city}&language=pt-br`)
+  axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${key}&q=${city}&language=pt-br`)
   .then(response => {
     const city = response.data[0]
     const locationKey = city.Key
@@ -27,7 +27,7 @@ function getCity (city) {
 } 
 
 function getWeather(locationKey) {
-  axios.get(`http://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${key}&language=pt-br`)
+  axios.get(`https://dataservice.accuweather.com/currentconditions/v1/${locationKey}?apikey=${key}&language=pt-br`)
   .then( response => {
     const cityWeather = response.data[0]
     const iconWeather = cityWeather.WeatherIcon
